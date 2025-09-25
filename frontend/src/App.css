@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.editor, .analysis {
+  flex: 1;
+  padding: 20px;
+  overflow: auto;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
